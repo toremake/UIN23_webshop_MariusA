@@ -153,6 +153,7 @@ article.product-card button {
     border-left: .5rem solid var(--green);
     border-bottom: .5rem solid var(--green);
     padding: 1rem;
+    transition: ease-in-out .5s;
 }
 
 #cartview ul {
@@ -183,4 +184,9 @@ button.delete {
     background-color: var(--red);
     border: none;
     color: var(--white);
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
 }
